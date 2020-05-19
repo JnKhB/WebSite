@@ -1,0 +1,45 @@
+
+@import url('alap.css');
+
+body {
+	font-size:2em;
+
+}
+a#nagybetu {display: none;}		
+a#normalbetu {display: block;}
+
+header, main, footer, #header, div#tartalom, #footer {
+	width: 90%; 
+	max-width: 1200px;
+}
+nav#gyengenlato, div#gyengenlato {
+	width:400px;
+}
+img#oldalkepbal{
+	display:none;
+}
+
+form.urlap{
+	float:none;
+	background-image: none;
+	
+}
+img.first{
+	max-width: 100%;
+	height: auto;
+	float:none;
+	margin-top:0;
+}
+img.ordered{
+	max-width: 60%;
+	height: auto;
+	float: none;
+}
+table.center{
+	font-size:1.4em;
+	margin-left:0;
+}
+
+
+
+
